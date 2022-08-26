@@ -9,6 +9,10 @@ class Registerscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.cyan.shade900,
+      appBar: AppBar(
+        title:Text("Bot"),
+        leading: Icon(Icons.h_mobiledata),
+      ),
       body: Column(
         children: [
           Expanded(child: Container(

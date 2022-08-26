@@ -17,6 +17,26 @@ class _BoardingscreenState extends State<Boardingscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white70,
+        title: Row(
+          mainAxisAlignment : MainAxisAlignment.start,
+        children:[
+        Icon(
+            Icons.h_mobiledata,
+            color: Colors.blue[600],
+            size: 40.0,
+          ),
+        Text(
+            "Bot",
+            style: TextStyle(
+            fontSize : 26.0,
+            color: Colors.blue[600],
+            ),
+      ),
+      ]
+      ),
+      ),
       body: Stack(
         children: [
           PageView(
