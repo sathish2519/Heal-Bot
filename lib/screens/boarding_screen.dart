@@ -22,18 +22,26 @@ class _BoardingscreenState extends State<Boardingscreen> {
         title: Row(
           mainAxisAlignment : MainAxisAlignment.start,
         children:[
-        Icon(
-            Icons.h_mobiledata,
-            color: Colors.blue[600],
-            size: 40.0,
-          ),
+        // Icon(
+        //     Icons.h_mobiledata,
+        //     color: Colors.blue[600],
+        //     size: 40.0,
+        //   ),
+        Text(
+            "H",
+            style: TextStyle(
+            fontWeight:FontWeight.bold,
+            fontSize : 30.0,
+            color: Colors.teal,
+            ),
+        ),
         Text(
             "Bot",
             style: TextStyle(
-            fontSize : 26.0,
+            fontSize : 20.0,
             color: Colors.blue[600],
             ),
-      ),
+        ),
       ]
       ),
       ),
