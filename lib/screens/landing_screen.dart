@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class landing_page extends StatefulWidget {
-  const landing_page({Key? key}) : super(key: key);
-
+class LandingPage extends StatefulWidget {
+  const LandingPage({Key? key}) : super(key: key);
+  static const String id = "LandingPage";
   @override
-  State<landing_page> createState() => _landing_pageState();
+  State<LandingPage> createState() => _LandingPageState();
 }
 
-class _landing_pageState extends State<landing_page> {
+class _LandingPageState extends State<LandingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white70,
-        title: Row(
-          mainAxisAlignment: ,
+         title: Row(
+        //   mainAxisAlignment: ,
         ),
       ),
     );

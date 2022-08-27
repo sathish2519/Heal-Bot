@@ -2,6 +2,7 @@
 
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
+import 'package:vendbot/screens/landing_screen.dart';
 
 class Boardingscreen extends StatefulWidget {
   const Boardingscreen({Key? key}) : super(key: key);
@@ -143,8 +144,10 @@ class _BoardingscreenState extends State<Boardingscreen> {
                   child: ElevatedButton(style:ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(Colors.blue)
                   ),onPressed: (){
-                    Navigator.push(context, route)
-                  }, child: const Text('Lets GO')),
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => const LandingPage()),
+                    );
+                  },
+                  child: const Text('Lets GO')),
                 ):
                 TextButton(
                   child: Text("Next",style: TextStyle(fontSize: 20,color: Colors.grey),),
