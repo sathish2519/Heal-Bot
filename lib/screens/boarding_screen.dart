@@ -88,7 +88,7 @@ class _BoardingscreenState extends State<Boardingscreen> {
                       style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black,fontSize: 30),
                     ),
                     const SizedBox(height: 10,),
-                    const Text("Use our HealBot check your health condition",textAlign: TextAlign.center,
+                    const Text("Use our HealBot to check your health condition",textAlign: TextAlign.center,
                       style: TextStyle(fontWeight: FontWeight.bold,color: Colors.grey,fontSize: 20),
                     ),
                     const SizedBox(height: 20,),
@@ -142,7 +142,9 @@ class _BoardingscreenState extends State<Boardingscreen> {
                   padding: const EdgeInsets.only(left: 20,right: 20),
                   child: ElevatedButton(style:ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(Colors.blue)
-                  ),onPressed: (){}, child: const Text('Lets GO')),
+                  ),onPressed: (){
+                    Navigator.push(context, route)
+                  }, child: const Text('Lets GO')),
                 ):
                 TextButton(
                   child: Text("Next",style: TextStyle(fontSize: 20,color: Colors.grey),),
