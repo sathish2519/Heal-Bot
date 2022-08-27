@@ -144,7 +144,8 @@ class _BoardingscreenState extends State<Boardingscreen> {
                   child: ElevatedButton(style:ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(Colors.blue)
                   ),onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const LandingPage()),
+                    Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const LandingPage()),
+                        (Route <dynamic> route) => false,
                     );
                   },
                   child: const Text('Lets GO')),

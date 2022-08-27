@@ -14,8 +14,29 @@ class _LandingPageState extends State<LandingPage> {
       appBar: AppBar(
         backgroundColor: Colors.white70,
          title: Row(
-        //   mainAxisAlignment: ,
+           mainAxisAlignment: MainAxisAlignment.start,
+           children: [
+             Text(
+               "H",
+               style: TextStyle(
+                 fontWeight:FontWeight.bold,
+                 fontSize : 30.0,
+                 color: Colors.teal,
+               ),
+             ),
+             Text(
+               "Bot",
+               style: TextStyle(
+                 fontSize : 20.0,
+                 color: Colors.blue[600],
+               ),
+             ),
+             const SizedBox(width: 197),
+           ],
         ),
+      ),
+      body: Column(
+        
       ),
     );
   }
