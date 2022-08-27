@@ -35,7 +35,7 @@ class _LandingPageState extends State<LandingPage> {
            ],
         ),
       ),
-      body:
+      body: //to use media queries 
       Column(
         children : [
           SizedBox(
@@ -51,16 +51,33 @@ class _LandingPageState extends State<LandingPage> {
             ),
           ),
           SizedBox(
-              height: 40,
+              height: 42,
           ),
         ElevatedButton.icon(
-  onPressed: () {},
-  icon: Icon( // <-- Icon
-    Icons.local_hospital_rounded,
-    size: 24.0,
-  ),
-  label: Text('Need a health support \n Chat with Doctors'), // <-- Text
-),
+            onPressed: () {},
+            icon: Icon( // <-- Icon
+            Icons.local_hospital_rounded,
+            size: 24.0,
+          ),
+            label: Text('\n Need a health support \n Chat with Doctors\n',
+            style : TextStyle(
+                fontWeight: FontWeight.bold,
+            )), // <-- Text
+          ),
+          SizedBox(
+            height: 40,
+          ),
+          ElevatedButton.icon(
+            onPressed: () {},
+            icon: Icon( // <-- Icon
+              Icons.man_sharp,
+              size: 24.0,
+            ),
+            label: Text('\n Check Symptoms \n Check your symptoms\n',
+            style : TextStyle(
+              fontWeight: FontWeight.bold,
+            )), // <-- Text
+          ),
       ]
       ),
     );
