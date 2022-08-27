@@ -35,8 +35,47 @@ class _LandingPageState extends State<LandingPage> {
            ],
         ),
       ),
-      body: Column(
-        
+      body:
+      Column(
+        children : [
+          SizedBox(
+            height: 140,
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 25.0,horizontal: 80.0),
+            child: Text("What brings you here?",
+            style : TextStyle(
+              fontSize: 20.0,
+              color: Colors.lightBlue,
+            )
+            ),
+          ),
+          SizedBox(
+              height: 40,
+          ),
+          Text("Get a health checkup from doctor",
+          style: TextStyle(
+            fontSize: 20.0,
+            color: Colors.black87,
+          ),),
+          ElevatedButton.icon(
+            onPressed: (){},
+            icon:Icon(Icons.local_hospital_outlined,
+            size : 30.0
+          ),
+            children : const Text.rich(
+              TextSpan(
+                children: <TextSpan>[
+                  : Text("Need a Care now\n"),)
+                ]
+              )
+            )
+
+      // label : Text("Need a Care now\n"),Text: 'Get a health checkup from doctor',style:TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),
+
+          ),
+
+      ]
       ),
     );
   }
