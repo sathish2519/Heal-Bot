@@ -53,28 +53,14 @@ class _LandingPageState extends State<LandingPage> {
           SizedBox(
               height: 40,
           ),
-          Text("Get a health checkup from doctor",
-          style: TextStyle(
-            fontSize: 20.0,
-            color: Colors.black87,
-          ),),
-          ElevatedButton.icon(
-            onPressed: (){},
-            icon:Icon(Icons.local_hospital_outlined,
-            size : 30.0
-          ),
-            children : const Text.rich(
-              TextSpan(
-                children: <TextSpan>[
-                  : Text("Need a Care now\n"),)
-                ]
-              )
-            )
-
-      // label : Text("Need a Care now\n"),Text: 'Get a health checkup from doctor',style:TextStyle(fontSize: 20.0,fontWeight: FontWeight.bold),
-
-          ),
-
+        ElevatedButton.icon(
+  onPressed: () {},
+  icon: Icon( // <-- Icon
+    Icons.local_hospital_rounded,
+    size: 24.0,
+  ),
+  label: Text('Need a health support \n Chat with Doctors'), // <-- Text
+),
       ]
       ),
     );
