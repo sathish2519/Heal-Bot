@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:vendbot/screens/boarding_screen.dart';
-import 'package:vendbot/screens/registerscreen.dart';
 
 void main() {
   runApp(const MyApp());
