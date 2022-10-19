@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "healbot-ukxg",
+  "private_key_id": "b031670915e2c6da8ef568bdca6cd340a9906869",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCOWK3S24xl9Q6F\nLaw/Wvk89Eqqo9no5lmcH3mob/2fe0ZKokirDyyBnA7gs4gyLwsbSPs9F+Oe3DIK\nXtPtO2a5ufDxcgE32I34WUoNpY0amL+bfA1e68kQpuGZWrdp4/fQI7kHE8oYP6st\nOMcHOWqaLwGNsDQ5YSkW0ZclBFhMvNeqkCrGxkOlvA7wOuJww81/HCnXFjsa68FX\nhQxR6E8oZkMgmtJV7ooYXfx7zjrGZttGD3DoHSVZjz+QoIU5biVsI7OvWTQW5hqp\n0dcuSr+7vFO7od080alHYr98CSDl6tuAB7SZswzmXxqznf9FbfWwAHlloKb1gefX\nhS0r7SMPAgMBAAECggEAJeqnOqBysIHrQTxeQm4IL91euj90/x3Extp3fI+APmgG\n3ECIHNCo6UlZiS8pWzy+t6DkE2z2m81JowuJZgrJnTVTYe0dN/P+NSYLnMD5ahlA\nCLmtkhg6ca4SL9hDPPiVfSLW2XTDA1yKSzxxf5IivDlDL6u87X/dAxAHM7wJjT7m\nW0s7I/VJ1TKSqZBAogDgb91bomjLZxFYeXIv+cLxu+l9ZqtR4sOncGty/npS5vHl\nPSjc+gofmzSumRDpembpR7exzHedT2bJAuq7hfvl3AHTWsdTpB8xiT+0HU+5fRJ7\nhUNJ72RTHrMJcgqsDyoFbGVEJ/ZQs55P0whbVEAOUQKBgQDI2obBjMEah+/xErV+\npPJSK89lNW9k53dmqMXpdJCIMKazOMOgIulv8y2v+XPxiMttquTnCeWYgJ/fihd2\npOT6wY84yo1ija2oqeriuwtI2vhW8WDIw1Q8BlAfFTeVHphTKlOWIWk4iIn47eMl\nYWEnoxxe1vBBcsZUxY6eD1yQhwKBgQC1bdV98ehzTCkuJ9twWGZ/Ot8kkhnW3Ohf\nZJt6+GZ2wSYQKPDdnNTwyj2Msn3uICJegDJLS6wQzzGLb7tVep4kRytEw6mq+4eZ\nSlutvdrw2EtHHbcUdA1DIYaTAzvLQ8CCJmm8vCcCHqe2qTScIDt9BbW9p1zXsLS/\nu8bORx2jOQKBgQCWpaj7FNplTt49v52Xfpot3aQxshF56k5ZFm9S+dXKAEuYExRP\nUMAr8oYq/fvjhommGM6VJ4wohRjkbkvI9ka0eWc13l6LM96zqbZ+FnKRU4N+mo7Q\nJglQ+B8yIRTOaOMxRYbqDOdBus9ZgPukttRLCYEm9SnAvRhazs54aOcxkwKBgCb/\nZ999ixCVc1iXeqSoa8e3WNWcje9QZqZykrUZBbVLCSp6EmQgXOkxH4/JoiX4REr5\n1VW3+1FVp/mn16WlCK8VmShbwnGdRWVexVwQLiqM44lyyrKby2n9n9aj4Ett0cho\nB1xpOR1Mh5JMxqE0kHTsMEeG3P8D3aZE75PRV36JAoGBAIlyQ2zr9atU9dZMoLli\nP0SwpxGThfRyNKzUE/ristetBAhIXGcIk0YtJNJ34m5NJ8PWvNBbmPvwb4UY/Ioq\nqdIp+NDzsONFPQJb05DJWprtHJdVeqTuq9Qvhk0rkVpwxeJ+mGl+gHVW8TJ3VSY3\nUlTh6rvNyd9RnL/Nu0Xbp2xE\n-----END PRIVATE KEY-----\n",
+  "client_email": "healbot@healbot-ukxg.iam.gserviceaccount.com",
+  "client_id": "108201651883652265059",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/healbot%40healbot-ukxg.iam.gserviceaccount.com"
+}
