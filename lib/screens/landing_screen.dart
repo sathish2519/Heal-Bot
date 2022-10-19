@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:vendbot/screens/flowbot_screen.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({Key? key}) : super(key: key);
@@ -69,14 +68,7 @@ class _LandingPageState extends State<LandingPage> {
             height: 40,
           ),
           ElevatedButton.icon(
-            onPressed: () {
-              Navigator.pushAndRemoveUntil(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const MyHomePage()),
-                                (Route<dynamic> route) =>   true,
-                              );
-            },
+            onPressed: () {},
             icon: Icon( // <-- Icon
               Icons.man_sharp,
               size: 24.0,
